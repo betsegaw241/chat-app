@@ -2,15 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height:100%;
-background-color: #50577A;
+background-color: #6D9886;
 width:30%;
 display:flex;
 flex-direction: column;
-border: 1px solid black;
+
+
+
 
 `;
 export const Navbar = styled.div`
-background-color: black;
+background-color: #393E46;
 display:flex;
 width:100%;
 align-items: center;
@@ -43,7 +45,6 @@ color:white;
 background-color:transparent;
 cursor:pointer;
 font-size:large;
-border : 1px solid white;
 border-radius:5px;
 padding:5px;
 :hover{
@@ -55,7 +56,8 @@ padding:5px;
 export const Input = styled.input`
 width:99%;
 height:30px;
-background:linear-gradient(to right, white , #50577A);
+background:linear-gradient(to right, white , #6D9886);
+font-size:large;
 border:none;
 color:black;
 margin-right:10px;

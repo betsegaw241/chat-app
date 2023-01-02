@@ -6,11 +6,9 @@ const Messages = () => {
 
   return (
     <MessagesContainer>
-          <Message />
-          <Message />
-          <Message />
-          <Message />
-          <Message />
+      <Message />
+      <Message />
+          
     </MessagesContainer>
   )
 }

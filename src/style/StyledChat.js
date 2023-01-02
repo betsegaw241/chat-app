@@ -5,15 +5,15 @@ export const Container = styled.div`
 
 height:100%;
 width:100%;
-background-color:#9cd3db;
+background-color:#F7F7F7;
 
 `;
 export const Navbar = styled.div`
-background-color: #1C315E;
+background-color: #393E46;
 display:flex;
 width:100%;
 align-items: center;
-justify-content:space-around;
+justify-content:flex-end;
 height:10%;
 flex-wrap:wrap;
 color:white;
@@ -56,7 +56,7 @@ cursor:pointer;
 export const Card = styled.div`
 display:flex;
 flex-wrap:wrap;
-width:50%;
+
 background-color:white;
 border-radius:6px;
 margin-left:1%;
@@ -64,13 +64,11 @@ margin-top:1%;
 padding-left:1%;
 
 `;
-export const MessagesContainer = styled.div`
 
-
-`;
 export const Status = styled.div`
 display:flex;
 margin-left:1%;
+justify-content:flex-end;
 
 p{
    
@@ -78,3 +76,21 @@ p{
 }
 `;
 
+export const MessageContainer = styled.div`
+
+display:flex;
+flex-direction:column;
+width:50%;
+`;
+export const MessagesContainer = styled.div`
+
+
+`;
+export const ChatMenu = styled.div`
+display :flex;
+align-items :center;
+justify-content:center;
+width:20%;
+gap:10px;
+
+`;
