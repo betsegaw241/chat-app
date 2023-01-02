@@ -6,20 +6,22 @@ background-color: #6D9886;
 width:30%;
 display:flex;
 flex-direction: column;
-
+@media (max-width: 700px) {
+    display:none;
+  }
 
 
 
 `;
 export const Navbar = styled.div`
-background-color: #393E46;
+background-color: #C3B091;
 display:flex;
 width:100%;
 align-items: center;
 justify-content:space-around;
 height:10%;
 flex-wrap:wrap;
-color:white;
+color:black;
 font-size: larger;
 font-weight: bold;
 padding-top:5px;
@@ -41,7 +43,7 @@ margin-right:5px;
 
 export const Button = styled.button`
 border:none;
-color:white;
+color:black;
 background-color:transparent;
 cursor:pointer;
 font-size:large;

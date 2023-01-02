@@ -1,6 +1,6 @@
 import React from 'react'
-import { ChatInputContainer,Icon,Input,Button} from '../style/StyledChat'
-import Attach from '../Assets/attachments.png'
+import { ChatInputContainer,Icon,Input,Button,Attach} from '../style/StyledChat'
+import AttachIcon from '../Assets/attachments.png'
 import Img from '../Assets/image-.png'
 import SendIcon from '../Assets/right-arrow.png'
 const ChatInput = () => {
@@ -8,16 +8,17 @@ const ChatInput = () => {
       <ChatInputContainer>
           
           <Input type="text" placeholder="Type something..." /> 
-          <div>
-        <Icon src={Attach} alt="" />
+      <div>
+        <Attach htmlFor="file">
+        <Icon src={AttachIcon} alt="" />
         <input
           type="file"
           style={{ display: "none" }}
           id="file"
         />
-        <label htmlFor="file">
-          <Icon src={Img} alt="" />
-        </label>
+        
+    
+        </Attach>
        
     
           </div>
