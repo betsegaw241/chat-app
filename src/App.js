@@ -6,8 +6,8 @@ import { Container } from "./style/container";
 function App() {
   return (
     <Container>
-      {/* <Auth/> */}
-      <Home/>
+      <Auth/> 
+      {/* <Home/> */}
     </Container>
   );
 }

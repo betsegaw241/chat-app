@@ -7,14 +7,13 @@ flex-direction:column;
 height:100%;
 width:70%;
  background-color:#F7F7F7;
- 
 
  @media (max-width: 700px) {
    width:100%;
   }
 `;
 export const Navbar = styled.div`
-background-color: #C3B091;
+background-color: #A084CA;
 display:flex;
 width:100%;
 align-items: center;
@@ -25,6 +24,7 @@ color:white;
 font-size: larger;
 font-weight: bold;
 padding-top:5px;
+
 `;
 
 export const ChatInputContainer = styled.div`
@@ -57,10 +57,11 @@ padding:6px;
 `;
 
 export const Input = styled.input`
-height:30px;
+height:70%;
 border:none;
 width:50%;
 margin-left:1%;
+margin-right:2%;
 :active{
     border:none;
 }
@@ -110,8 +111,9 @@ export const ChatMenu = styled.div`
 display :flex;
 align-items :center;
 justify-content:center;
-width:20%;
+width:30%;
 gap:10px;
+
 
 `;
 export const Menu = styled.div`
@@ -119,6 +121,7 @@ border-radius:6px;
 padding:2px;
 margin-right:auto;
 margin-left:3%;
+
 :hover{
     
     background-color:white;
@@ -134,3 +137,16 @@ margin-left:3%;
 export const Attach = styled.label`
 opacity:0.3;
 `; 
+export const L_Button = styled.button`
+border:none;
+color:black;
+background-color:transparent;
+cursor:pointer;
+font-size:large;
+border-radius:5px;
+padding:5px;
+
+:hover{
+    background-color: #50577A;
+}
+`

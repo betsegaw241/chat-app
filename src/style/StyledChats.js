@@ -17,6 +17,7 @@ export const Image = styled.img`
 width:50px;
 hegiht:50px;
 border-radius:25px;
+margin-right:4px;
 `;
 
 export const Profile = styled.div`
@@ -26,4 +27,16 @@ justify-content:space-around;
 width:50%;
 font-size:large;
 font-weight:bold;
+`;
+export const NavProfile = styled.div`
+display:flex;
+align-items: center;
+justify-content:space-between;
+width:100%;
+font-size:medium;
+font-weight:bold;
+
+img{
+    width:30px;
+}
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height:100%;
-background-color: #6D9886;
+background-color: #A084CA;
 width:30%;
 display:flex;
 flex-direction: column;
@@ -14,7 +14,7 @@ flex-direction: column;
 
 `;
 export const Navbar = styled.div`
-background-color: #C3B091;
+background-color: #645CAA;
 display:flex;
 width:100%;
 align-items: center;
@@ -41,24 +41,14 @@ margin-right:5px;
 
 `;
 
-export const Button = styled.button`
-border:none;
-color:black;
-background-color:transparent;
-cursor:pointer;
-font-size:large;
-border-radius:5px;
-padding:5px;
-:hover{
-    background-color: #50577A;
-}
 
 
-`;
+
+
 export const Input = styled.input`
 width:99%;
 height:30px;
-background:linear-gradient(to right, white , #6D9886);
+background:linear-gradient(to right, white , #A084CA);
 font-size:large;
 border:none;
 color:black;

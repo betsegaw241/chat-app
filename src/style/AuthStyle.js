@@ -49,4 +49,7 @@ border-radius:5px;
 cursor:pointer;
 background-color:#252f9a;
 color:#fff;
+:hover{
+  background-color:#6C00FF; 
+}
 `;
